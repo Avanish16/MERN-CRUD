@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+  }
+
+
+  .container {
+    position: fixed;
+    width: 500px;
+    margin: 50px auto;
+    height:490px;
+    background-color: #27291E24;
+    padding: 30px;
+    border-radius: 70px;
+    top: 32px;
+    left: 495px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 800px;
+    font-size: 48px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    width: 280px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 120px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 22px;
+    padding-left: 40px;
+  }
+
+
+  
+ 
+  
+  button {
+    background-color: #0078D4;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 15px;
+    margin-left: 179px;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    border-radius: 20px;
+    font-weight: 600px;
+    font-size: 20px;
+  }
+
+  p{
+    margin-left: 140px;
+    margin-top: 12px;
+    font-weight: 600px;
+    font-size: 15px;
+  }
+
+  p .lin{
+    color: #ff0000;
+    font-weight: 600px;
+    font-size: 15px;
+  }
+
+.form-group  .fa-user{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 19px;
+}
+.form-group  .fa-envelope{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 19px;
+}
+
+.form-group  .fa-lock{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 19px;
+}
+.form-group .fa-eye{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+.form-group ::placeholder{
+    padding-left: 15px;
+
+}
+
+.background{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.triangle1{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid #FDDD6F;
+    top: -130px;
+    right: -150px;
+    transform: rotate(55.87deg);
+
+}
+ 
+.triangle2{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 250px solid #EFBC07;
+    top: 30px;
+    left: -160px;
+    transform: rotate(-78deg);
+
+}
+.triangle3{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid #F8DD7E;
+    bottom: -70px;
+    left: -95px;
+    transform: rotate(55.87deg);
+
+}
+
+.triangle4{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 250px solid #EFBC07;
+    
+    right: -145px;
+    transform: rotate(-78deg);
+
+}
+
+.triangle5{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 250px solid #35B092;
+    bottom: -140px;
+    right: 350px;
+    transform: rotate(50deg);
+
+}
+
+.triangle6{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 250px solid #35B092;
+    top: -255px;
+    left: 335px;
+    transform: rotate(50deg);
+
+}
+
+.triangle7{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 240px solid #2BBBDB;
+    bottom: 320px;
+    left: 730px;
+    transform: rotate(50deg);
+
+}
+ 
+.triangle8{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #DBD42B82;
+    bottom: 350px;
+    left: 420px;
+    transform: rotate(50deg);
+
+}
+
+.triangle9{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 30px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid #DBD42B;
+    bottom: 400px;
+    left: 1130px;
+    transform: rotate(50deg);
+
+}
+
+.triangle10{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-left: 30px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 60px solid #CBE90F;
+    bottom: 90px;
+    left: 650px;
+    transform: rotate(0deg);
+
+}
